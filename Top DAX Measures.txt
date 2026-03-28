@@ -1,7 +1,7 @@
 Top DAX Measures
-Total Revenue = SUM(Fact_Orders[amount])
+Total Revenue = SUM(fact_orders[total_amount])
 
-Total Orders = DISTINCTCOUNT(Fact_Orders[order_id_dk])
+Total Orders = DISTINCTCOUNT(fact_orders[order_id])
 
 Average Order Value = DIVIDE([Total Revenue], [Total Orders])
 
@@ -9,7 +9,7 @@ Total Delivery Minutes = SUM(Fact_Orders[delivery_minutes])
 
 Average Delivery Minutes = AVERAGE(Fact_Orders[delivery_minutes])
 
-Average Rating = AVERAGE(Fact_Orders[rating_num])
+Average Rating = AVERAGE(fact_orders[avg_rating])
 
 Total Quantity = SUM(Fact_Orders[ordered_qty])
 
