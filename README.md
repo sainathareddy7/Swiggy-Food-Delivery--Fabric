@@ -2,7 +2,8 @@
 
 > A production-style **end-to-end data engineering project** built on **Microsoft Fabric** using **Lakehouse, PySpark, Pipelines, Warehouse, Star Schema, Semantic Model, and Power BI**.
 
-![Architecture](docs/images/architecture.png)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7bdf79fd-bf3e-4107-8cf8-251f21474f3f" />
+
 
 ## Why this project
 This project shows how raw operational order data can be transformed into a trusted analytics solution.
@@ -90,10 +91,12 @@ The Warehouse and report answer practical questions such as:
 
 ## Screenshots
 ### Workspace / Fabric items
-![Workspace Items](docs/images/workspace_items.png)
+![Workspace Items](<img width="506" height="383" alt="image" src="https://github.com/user-attachments/assets/87702d07-9fd6-47d8-ad15-e06c6cf2407c" />
+)
 
 ### Pipeline
-![Pipeline](docs/images/pipeline_foreach.png)
+![Pipeline](<img width="508" height="169" alt="image" src="https://github.com/user-attachments/assets/a930e075-2725-4f13-b849-177349ced6ea" />
+)
 
 ### Power BI Report
 ![Swiggy Delivery Summary](docs/images/report_summary.png)
