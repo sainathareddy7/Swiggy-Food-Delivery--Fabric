@@ -1,0 +1,35 @@
+Top DAX Measures
+Total Revenue = SUM(fact_orders[total_amount])
+
+Total Orders = DISTINCTCOUNT(fact_orders[order_id])
+
+Average Order Value = DIVIDE([Total Revenue], [Total Orders])
+
+Total Delivery Minutes = SUM(Fact_Orders[delivery_minutes])
+
+Average Delivery Minutes = AVERAGE(Fact_Orders[delivery_minutes])
+
+Average Rating = AVERAGE(fact_orders[avg_rating])
+
+Total Quantity = SUM(Fact_Orders[ordered_qty])
+
+Average Distance KM = AVERAGE(Fact_Orders[distance_km])
+
+Online Orders = CALCULATE([Total Orders], Dim_Order_Type[order_type] = "Online")
+
+Offline Orders = CALCULATE([Total Orders], Dim_Order_Type[order_type] <> "Online")
+
+Delivery Success % =
+DIVIDE(
+    CALCULATE([Total Orders], Fact_Orders[delivery_ts] <> BLANK(), Dim_Order_Type[order_type] = "Online"),
+    [Online Orders]
+)
+
+Booked Avg Spend =
+CALCULATE([Average Order Value], Dim_Order_Type[book_table] = TRUE())
+
+Not Booked Avg Spend =
+CALCULATE([Average Order Value], Dim_Order_Type[book_table] = FALSE())
+
+Booking Lift % =
+DIVIDE([Booked Avg Spend] - [Not Booked Avg Spend], [Not Booked Avg Spend])
