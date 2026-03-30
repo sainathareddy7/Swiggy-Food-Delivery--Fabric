@@ -2,7 +2,7 @@
 
 > A production-style **end-to-end data engineering project** built on **Microsoft Fabric** using **Lakehouse, PySpark, Pipelines, Warehouse, Star Schema, Semantic Model, and Power BI**.
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7bdf79fd-bf3e-4107-8cf8-251f21474f3f" />
+<img width="675" height="260" alt="image" src="https://github.com/user-attachments/assets/8af56d8d-8f9e-4152-b603-e8f6877a9afd" />
 
 
 ## Why this project
