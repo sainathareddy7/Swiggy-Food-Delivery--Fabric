@@ -91,8 +91,7 @@ The Warehouse and report answer practical questions such as:
 
 ## Screenshots
 ### Workspace / Fabric items
-![Workspace Items](<img width="506" height="383" alt="image" src="https://github.com/user-attachments/assets/87702d07-9fd6-47d8-ad15-e06c6cf2407c" />
-)
+docs/images/workspace_items.png
 
 ### Pipeline
 ![Pipeline](<img width="508" height="169" alt="image" src="https://github.com/user-attachments/assets/a930e075-2725-4f13-b849-177349ced6ea" />
