@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Swiggy Delivery Summary"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e06e468b-6cad-4d7e-91fc-ec7a4eb7fc2a"
+  }
+}
